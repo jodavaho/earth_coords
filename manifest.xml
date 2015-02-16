@@ -1,0 +1,18 @@
+<package>
+  <description brief="EarthCoords">
+
+     ...
+
+  </description>
+  <author></author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/EarthCoords</url>
+	<export>
+		<cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -learthcoords"/>
+	</export>
+	<depend package="roscpp"/>
+
+</package>
+
+
